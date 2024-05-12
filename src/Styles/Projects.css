@@ -1,0 +1,132 @@
+#projects{
+    padding:80px 0px;
+    color: white;
+    background-color: rgb(10, 10, 10);
+    
+}
+#projects h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+#projects h1 span{
+    color: steelblue;
+}
+.projects{
+    padding: 15px 4%;
+    
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    margin:3% 0;
+}
+
+.project-image{
+    flex-basis: 45%;
+    position: relative; 
+    overflow: hidden;
+    border-radius: 10px;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.project-image:hover img{
+    transform: scale(1.1);
+}
+.demo a {
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.demo{
+    width:100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.8),steelblue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    text-align: center;
+    transition: height 0.4s;
+}
+.demo p{
+    font-size: 20px;
+    padding: 10px;
+}
+.demo p span{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+.project-image:hover .demo{
+    height: 100%;
+}
+.project-description{
+    flex-basis: 50%;
+}
+.project-description h2{
+    font-size: 45px;
+    color: steelblue;
+    padding-bottom: 8px;
+}
+p{
+    font-weight: 400;
+    font-size: 15px;  
+}
+ul li {
+    list-style-type: none;
+}
+.project-content{
+    height : 420px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+ul li button{
+    background-color: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    color: white;
+    border: 5px solid steelblue;
+    border-radius: 20px;
+}
+ul li button:hover{
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.project {
+    transition: transform 0.5s ease; /* Add a transition effect to the project container */
+}
+  
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+#Internships{
+    padding:80px 0px;
+    color: white;
+    background-color: rgb(10, 10, 10);
+    
+}
+#Internships h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+#Internships h1 span{
+    color: steelblue;
+}
+.Internships{
+    padding: 15px 4%;
+    
+}
+.internship{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    margin:3% 0;
+}
+
+.internship-image{
+    flex-basis: 35%;
+    justify-items: center;
+    align-self: center;
+    
+}
+.internship-image img{
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    margin-left: 30%;
+    
+    
+}
+.internship-description{
+    flex-basis: 60%;
+}
+.internship-description h2{
+    font-size: 30px;
+    color: steelblue;
+    padding-bottom: 8px;
+}
+p{
+    font-weight: 400;
+    font-size: 15px;  
+}
+ul li {
+    list-style-type: none;
+}
+.Internship-content{
+    height : 300px;
+}
+
+ul li button{
+    background-color: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    color: white;
+    border: 5px solid steelblue;
+    border-radius: 20px;
+}
+ul li button:hover{
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.Internships {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 4%;
+}

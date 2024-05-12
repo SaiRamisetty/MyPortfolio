@@ -1,0 +1,15 @@
+#footer{
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
+#footer span{
+    font-size: 20px;
+    transition: font-size 0.5s;
+    color: steelblue;
+}
+#footer span:hover{
+    font-size: 27px;
+}

@@ -1,0 +1,108 @@
+#ContactMe{
+    padding:80px 0px;
+    color: white;
+    background-color: rgb(10, 10, 10);
+    
+}
+#ContactMe h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+#ContactMe h1 span{
+    color: steelblue;
+}
+.contact{
+    padding: 80px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactleft{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.contactright{
+    flex-basis: 60%;
+}
+.contactleft h3{
+    font-size: 40px;
+    text-align: justify;
+    padding: 15px 0;
+}
+
+.social{
+    display: inline-block;
+    
+}
+.social a, .contactleft p i{
+    font-size: 30px;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin-right: 28px;
+    
+}
+.social a i{
+    padding: 25px 0;   
+}
+.social a:hover{
+    transform: translateY(-5px);
+    color: steelblue;
+    transition: transform 0.5s;
+}
+
+.contactleft button , .contactright form button{
+    background-color: steelblue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.contactleft button{
+    padding: 15px 60px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer; 
+    transition: transform 0.3s;
+}
+.contactleft button:hover{
+    transform: translateY(-7px);
+
+}
+.contactright form{
+    width: 100%;
+}
+form input, form textarea{
+    width:90%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form button{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s;
+}
+form button:hover{
+    transform: translateY(-7px);
+}
+#msg{
+    color: rgb(8, 243, 8);
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
