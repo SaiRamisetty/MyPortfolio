@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.21a0288d.css",
-    "main.js": "/MyPortfolio/static/js/main.0541dd87.js",
+    "main.js": "/MyPortfolio/static/js/main.a23128a8.js",
     "static/media/sai_profile.jpg": "/MyPortfolio/static/media/sai_profile.3ae1e997394242716844.jpg",
     "static/media/Weather APP.png": "/MyPortfolio/static/media/Weather APP.66ee3a436b1784e9e4e2.png",
     "static/media/Screenshot 2024-03-14 105922.png": "/MyPortfolio/static/media/Screenshot 2024-03-14 105922.0915ed24c92b27fe6f90.png",
@@ -14,10 +14,10 @@
     "static/media/south_central_railway_logo.jpeg": "/MyPortfolio/static/media/south_central_railway_logo.04b58d8e38b19243954f.jpeg",
     "index.html": "/MyPortfolio/index.html",
     "main.21a0288d.css.map": "/MyPortfolio/static/css/main.21a0288d.css.map",
-    "main.0541dd87.js.map": "/MyPortfolio/static/js/main.0541dd87.js.map"
+    "main.a23128a8.js.map": "/MyPortfolio/static/js/main.a23128a8.js.map"
   },
   "entrypoints": [
     "static/css/main.21a0288d.css",
-    "static/js/main.0541dd87.js"
+    "static/js/main.a23128a8.js"
   ]
 }
